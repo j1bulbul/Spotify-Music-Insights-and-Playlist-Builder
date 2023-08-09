@@ -1,6 +1,6 @@
 # Spotify Data Analysis & Playlist Recommender
 
-A deep dive into my Spotify listening history through data visualisations, alongside the development of a playlist recommender utilising these insights and correlations between audio features and artists. 
+A deep dive into my Spotify listening history through data visualisations, alongside the development of a playlist recommender utilising these insights as well as correlations between audio features and tracks/artists. 
 
 Ideal for anyone curious about their musical journey or looking to discover new tracks based on their own tastes.
 
