@@ -6,13 +6,13 @@ Ideal for anyone curious about their musical journey or looking to discover new 
 
 ## Notebooks:
 
-1. **Data Extraction and Cleaning Notebook**:
+1. ### Data Extraction and Cleaning Notebook**:
 - Establishing a connection to the Spotify API
 - Extracting the required data using the appropriate API endpoints
 - Processing and organizing saved tracks, top tracks, and top artists in Pandas dataframes
 - Tidying up and structuring data for further analysis and visualisation
   
-2. **Data Visualization Notebook**:
+2. ### Data Visualization Notebook**:
 ### Key Statistics on Listening Habits:
 - **Top Tracks**: short, medium, and long term.
 - **Top Artists**: short, medium, and long term.
