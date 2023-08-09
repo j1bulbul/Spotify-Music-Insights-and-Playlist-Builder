@@ -1,40 +1,61 @@
-# Spotify-Music-Insights-and-Playlist-Builder
-Analyzing my Spotify listening habits to derive insights and building a mood-based playlist recommender. Dive into my listening habits and data visualisations and stay tuned for personalized playlist suggestions!
+# Spotify Data Analysis & Playlist Recommender
 
-Spotify Data Exploration and Visualization
+A deep dive into my Spotify listening history through data visualisations, alongside the development of a playlist recommender utilising these insights and correlations between audio features and artists. 
 
-Dive deep into the intricacies of my Spotify listening data, from data extraction and cleaning to detailed visualizations and insights.
+Ideal for anyone curious about their musical journey or looking to discover new tracks based on their own tastes.
 
-Content Overview:
+## Notebooks:
 
-Data Cleaning Notebook:
-Established a connection to the Spotify API.
-Extracted relevant data pertaining to my listening habits.
-Organized and tidied the data, storing it in Pandas dataframes.
-Data Visualization Notebook:
-Key Statistics on Listening Habits:
-Top Tracks: short, medium, and long term.
-Top Artists: short, medium, and long term.
-Audio Feature Distribution:
-For saved tracks.
-Segmented by time ranges: short, medium, and long term.
-Correlation Analysis:
-Understanding relationships between various audio features.
-Delved deep with scatter plots and correlation matrices.
-Spotlight on Artist Specific Data - Frank Ocean:
-Analyzed the distribution of audio features from this top artist.
-Gained insights into his musical style based on the tracks I've saved.
-Insights and Observations:
+1. **Data Extraction and Cleaning Notebook**:
+- Establishing a connection to the Spotify API
+- Extracting the required data using the appropriate API endpoints
+- Processing and organizing saved tracks, top tracks, and top artists in Pandas dataframes
+- Tidying up and structuring data for further analysis and visualisation
+  
+2. **Data Visualization Notebook**:
+### Key Statistics on Listening Habits:
+- **Top Tracks**: short, medium, and long term.
+- **Top Artists**: short, medium, and long term.
 
-Genre Distribution:
-The data provides a window into my personal music taste. However, genres like Arab pop, featured prominently in 'top tracks' and 'top artists', originate from shared family usage of my Spotify account.
-Audio Features Across Time Ranges:
-A surge in songs with high acousticness in the short and medium term signifies my recent affinity for classic rock and neo soul.
-The summery vibes shine through with an increase in energy, valence, danceability, and loudness in the short term.
-Deep Dive with Frank Ocean:
-As a top listener (top 0.2% last year), analyzing Frank's tracks offered insights into his characteristic style. The leaning of certain features like valence, danceability, energy, and tempo towards the left stood out.
-Upcoming Additions:
+### Audio Feature Distribution:
+- Audio features (tempo, danceability, energy, etc.) analysed for saved tracks and for top tracks.
+- Segmented by time ranges for top tracks: short, medium, and long term.
+  
+### Correlation Analysis:
+- Understanding relationships between various audio features.
+- Delved deep with scatter plots and correlation matrices.
+  
+### Genre Distribution: 
+- Exploring genre distributions of saved tracks,  top tracks, and top artists.
 
-Playlist recommender system.
-Network graphs showcasing relationships between songs or artists.
-Further correlation analyses to pinpoint exact patterns between audio features.
+### Spotlight on Artist Specific Data - Frank Ocean:
+- Analyzed the distribution of audio features from this top artist.
+- Gained insights into his musical style based on the tracks I've saved
+- Significant acousticness presence in a number of tracks
+- Audio features like valence, danceability, energy, and tempo distributions skew  lower, which makes sense considering his style and catalogue
+  
+### Insights So Far:
+
+- Songs with high acousticness have become more prominent in my short and medium-term listening, reflecting a recent dive into classic rock and neo soul.
+- Tracks from recent months have showcased higher energy, valence, danceability, and loudness. This upbeat shift is likely influenced by the summer season mood.
+- There's a noticeable correlation between danceability, energy, and loudness with respect to acousticness.
+- Speechiness appears higher for more energetic songs, suggesting the presence of rap songs.
+- Further analysis is in progress to identify patterns between multiple audio features
+- Usage of my Spotify account  on our home system introduces genres from family members like Arab pop, especially noticeable in 'top tracks' and 'top artists'
+
+## Upcoming Visualisations:
+
+- Segmenting top genres based on different timeframes (short, medium, long term).
+- More in-depth exploration of potential non-linear relationships between multiple audio features.
+- Chronological visualization of saved tracks and albums over time.
+- Explore subsets of data for trends currently hidden in the entire dataset.
+- Investigate potential relationships by combining audio features, like the ratio of loudness to energy in comparison with valence.
+
+### Coming Soon: Playlist Recommender Notebook:
+- Plans to incorporate network graphs to better understand relationships between songs or artists based on shared audio features and listening patterns.
+- Interactive plot of my listening/saved tracks/top albums over time
+- Implement insights and network graph into a playlist recommender model that recommends  playlists based on mood (e.g. inspiring) or activity (e.g. gym or stroll in the park)
+- Benchmarking model/assessing performance by comparing with Spotify API's get_recommendations endpoint
+- GPT integration to converse naturally when requesting new playlists
+
+**Stay tuned for more updates and feel free to dive into the notebooks for a detailed walkthrough!**
