@@ -13,28 +13,29 @@ Ideal for anyone curious about their musical journey or looking to discover new 
 - Tidying up and structuring data for further analysis and visualisation
   
 2. ### Data Visualization Notebook:
-## Key Statistics on Listening Habits:
-- **Top Tracks**: short, medium, and long term.
-- **Top Artists**: short, medium, and long term.
+   
+**Key Statistics on Listening Habits:**
+  - **Top Tracks**: short, medium, and long term.
+  - **Top Artists**: short, medium, and long term.
 
-## Audio Feature Distribution:
-- Audio features (tempo, danceability, energy, etc.) analysed for saved tracks and for top tracks.
-- Segmented by time ranges for top tracks: short, medium, and long term.
+  **Audio Feature Distribution:**
+  - Audio features (tempo, danceability, energy, etc.) analysed for saved tracks and      for top tracks.
+  - Segmented by time ranges for top tracks: short, medium, and long term.
   
-## Correlation Analysis:
-- Understanding relationships between various audio features.
-- Delved deep with scatter plots and correlation matrices.
+  **Correlation Analysis:**
+  - Understanding relationships between various audio features.
+  - Delved deep with scatter plots and correlation matrices.
   
-## Genre Distribution: 
-- Exploring genre distributions of saved tracks,  top tracks, and top artists.
+  **Genre Distribution:** 
+  - Exploring genre distributions of saved tracks,  top tracks, and top artists.
 
-## Spotlight on Artist Specific Data - Frank Ocean:
-- Analyzed the distribution of audio features from this top artist.
-- Gained insights into his musical style based on the tracks I've saved
-- Significant acousticness presence in a number of tracks
-- Audio features like valence, danceability, energy, and tempo distributions skew  lower, which makes sense considering his style and catalogue
+  **Spotlight on Artist Specific Data - Frank Ocean:**
+  - Analyzed the distribution of audio features from this top artist.
+  - Gained insights into his musical style based on the tracks I've saved
+  - Significant acousticness presence in a number of tracks
+  - Audio features like valence, danceability, energy, and tempo distributions skew  lower, which makes sense considering his style and catalogue
   
-## Key Insights So Far:
+### Key Insights So Far:
 
 - Songs with high acousticness have become more prominent in my short and medium-term listening, reflecting a recent dive into classic rock and neo soul.
 - Tracks from recent months have showcased higher energy, valence, danceability, and loudness. This upbeat shift is likely influenced by the summer season mood.
@@ -43,7 +44,7 @@ Ideal for anyone curious about their musical journey or looking to discover new 
 - Further analysis is in progress to identify patterns between multiple audio features
 - Usage of my Spotify account  on our home system introduces genres from family members like Arab pop, especially noticeable in 'top tracks' and 'top artists'
 
-## Upcoming Visualisations:
+### Upcoming Visualisations:
 
 - Segmenting top genres based on different timeframes (short, medium, long term).
 - More in-depth exploration of potential non-linear relationships between multiple audio features.
