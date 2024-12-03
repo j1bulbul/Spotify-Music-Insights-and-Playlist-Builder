@@ -4,6 +4,9 @@ A personal project where I have utilised the Spotify API to deep dive into my Sp
 
 Ideal for anyone curious about their musical journey or looking to discover new tracks based on their own tastes.
 
+To jump to the insights from my listening metadata extracted from the Sptoify API, jump to the Data_Visualization.ipynb Jupyter file. Enjoy! 
+
+
 ## Notebooks:
 
 1. ### Data Extraction and Cleaning Notebook:
