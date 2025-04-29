@@ -1,4 +1,4 @@
-# Spotify Data Analysis & Playlist Recommender
+# Music Listening Habits Insights Using Spotify API 
 
 A personal project where I have utilised the Spotify API to deep dive into my Spotify listening history through data visualisations, alongside the development of a playlist recommender that utilise insights I found including correlations between audio features and tracks/artists.
 
